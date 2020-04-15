@@ -271,13 +271,13 @@ function test_input($data) {
    Commentaire:<br> <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
    <br><br>
    Genre:
-   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>  value="female">Female
-   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?>  value="male">Male
+   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>  value="female">Femme
+   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?>  value="male">Homme
    <span class="error">* <?php echo $genderErr;?></span>
    <br><br>
-   <input type="submit" name="submit" value="Submit">
+   <input type="submit" name="submit" value="Envoyer">
 </form>
-<p><span class="error">* required field.</span></p>
+<p><span class="error">* champ requis.</span></p>
 
 <?php
 echo "<h2>Your Input:</h2>";
@@ -292,7 +292,7 @@ echo "<br>";
 echo $gender;
 ?>
 
-<p> Information about your server <a href="info.php">here</a></p>
+<p> Information sur votre serveur <a href="info.php">here</a></p>
         <footer>
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
         </footer>
