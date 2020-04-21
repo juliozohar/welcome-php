@@ -38,6 +38,7 @@ user@host$ oc expose svc welcome-php --name=hello-openshift --hostname=hello-ope
 
 
 
+
 Openshift Workshops 
 ====
 
@@ -46,37 +47,40 @@ Voici une liste non exaustive des laboratoires disponibles pour démarrer ou mon
 Workshops / Laboratoires 
 ----
 
-Openshift Basic Tutorials - tutoriels de Red Hat qui expliquent la base de la plateforme Openshift, 
+**Openshift Basic Tutorials** - *tutoriels de Red Hat qui expliquent la base de la plateforme Openshift*
 
 [https://developers.redhat.com/openshift/#assembly-field-sections-13455][1]
 
-Laboratoire Openshift version 3.11 - Forge Gouvernementale 
+**Laboratoire Openshift version 3.11** - *Forge Gouvernementale* 
 
 [https://gitlab.forge.gouv.qc.ca/cqen/okd/workshopv3/openshiftv3-workshop][2]
 
-Laboratoire Openshift version 4.1 - Forge Gouvernementale 
+**Laboratoire Openshift version 4.1** - *Forge Gouvernementale*
+
 [https://gitlab.forge.gouv.qc.ca/cqen/okd/les-travaux-pratiques-openshift][3]
 
 
 Resources
 ----
 
-Openshift online - pour avoir un cluster personnel. Il faut un compte chez RedHad, puis l'abbonement du cluster est valide pour 60 jours, rénouvellables. 
+**Openshift online** - *pour avoir un cluster personnel. Il faut un compte chez RedHad, puis l'abbonement du cluster est valide pour 60 jours, rénouvellables.* 
 
 [https://www.openshift.com/products/online][r1]
 
 
-Instalation de l'outil `oc`
+
+
+**Instalation de l'outil `oc`**
 
 [https://mirror.openshift.com/pub/openshift-v4/clients/oc/4.2/][r2]
 
 
-Portail d'apprentissage iteractive d'Openshift 
+**Portail d'apprentissage iteractive d'Openshift**
 
 [https://learn.openshift.com/][r3]
 
 
-Télechargement et instalation d'un cluster Openshift v4 provisionné sur la machile locale. 
+**Téléchargement et instalation d'un cluster Openshift v4 provisionné sur la machile locale.**
 
 [https://cloud.redhat.com/openshift/install/crc/installer-provisioned][r4]
 
@@ -89,3 +93,4 @@ Télechargement et instalation d'un cluster Openshift v4 provisionné sur la mac
 [r2]: https://mirror.openshift.com/pub/openshift-v4/clients/oc/4.2/
 [r3]: https://learn.openshift.com/
 [r4]: https://cloud.redhat.com/openshift/install/crc/installer-provisioned
+
